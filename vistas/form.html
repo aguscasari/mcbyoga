@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscripcion</title>
+    <link rel="stylesheet" href="../final.css">
+    <link rel="stylesheet" href="../app.css">
+
+<body>
+    <main>
+        <header
+            class="fotoHeader rounded-b-2xl shadow-2xl rounded-t-2xl hidden grid grid-rows-4 grid-flow-col lg:block pt-0">
+            <div class="row-span-1">
+                <nav class="flex items-center justify-between flex-wrap bg-teal-100 p-6">
+                    <div class="flex items-center flex-shrink-0 text-black-700 mr-6">
+                        <span class="font-semibold text-xl text-gray-200 tracking-tight">Inhala, exhala, fluye...</span>
+                    </div>
+                    <div class="block lg:hidden">
+                        <button
+                            class="flex items-center px-3 py-2 border rounded text-teal-200 border-teal-400 hover:text-white hover:border-white">
+                            <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                <title>Menu</title>
+                                <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
+                            </svg>
+                        </button>
+                    </div>
+                    <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
+                        <div class="text-sm lg:flex-grow">
+                            <a href="ype.html"
+                                class="block mt-4 bg-gray-400 bg-opacity-40 py-2 hover:bg-white rounded-lg px-5 lg:inline-block lg:mt-0 text-teal-200 hover:text-gray-500 mr-4">
+                                Yoga para embarazadas
+                            </a>
+
+                            <a href="hatha.html"
+                                class="block mt-4 bg-gray-400 bg-opacity-40 py-2 hover:bg-white rounded-lg px-5 lg:inline-block lg:mt-0 text-teal-200 hover:text-gray-500 mr-4">
+                                Hatha Yoga
+                            </a>
+                            <a href="bdy.html"
+                                class="block mt-4 bg-gray-400 bg-opacity-40 py-2 hover:bg-white rounded-lg px-5 lg:inline-block lg:mt-0 text-teal-200 hover:text-gray-500">
+                                Beneficios del Yoga
+                            </a>
+                        </div>
+                        <div>
+                            <a href="../home.html"
+                                class="inline-block bg-gray-400 bg-opacity-40 py-2 rounded-lg px-5 text-sm px-4 py-2 leading-none border rounded text-black-700 hover:border-transparent hover:text-gray-500 hover:bg-white mt-4 lg:mt-0">Volver
+                                al inicio</a>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+            <div class="row-span-3 grid grid-cols-4">
+                <div class="col-span-1 col-start-1 col-end-2"></div>
+                <img src="../yogafondo.png" alt="" class="h-48 w-56">
+            </div>
+        </header>
+        <div class="grid gris-cols-4">
+            <hr class="hidden lg:block hr-green col-span-2 border-pink-200 col-start-2 col-end-4 w-3/6  mt-10 mb-10">
+        </div>
+        <div class="fotoFormulario mx-80 rounded-b-2xl shadow-2xl rounded-t-2xl hidden lg:block pt-0 grid grid-cols-2">
+            <div class="col-span-2 py-16 pr-10 pl-96">
+                <form class="" action="" method="POST" id="form">
+                    <div class="grid grid-rows-5">
+                        <div class="row-span-1">
+                            <h1 class="text-grey-700 text-left text-xl"><b>Comenzá la inscripcion!</b></h1>
+                        </div>
+                        <div class="row-span-1 my-4">
+                            <label for="name" class="">Nombre</label>
+                            <input type="text" required="required" id="name" name="name" placeholder="nombre"
+                                class=" shadow-2xl rounded-xl px-2 py-1">
+                        </div>
+                        <div class="row-span-1 my-4">
+                            <label for="lastname" class="">Apellido</label>
+                            <input type="text" required="required" id="lastname" name="lastName" placeholder="apellido"
+                                class="rounded-xl px-2 py-1 shadow-2xl">
+                        </div>
+                        <div class="row-span-1 my-4 ml-7">
+                            <label for="mail" class="">Mail</label>
+                            <input type="text" required="required" id="mail" name="mail" placeholder="ejemplo@gmail.com"
+                                class="rounded-xl px-2 py-1 shadow-2xl">
+                        </div>
+                        <button
+                            class="row-span-1 my-4 rounded-xl py-1 bg-gray-400 bg-opacity-60 hover:text-white hover:bg-gray-700 hover:bg-opacity-80 text-center ml-16 mr-10 px-0"><a
+                                href="vistas\form.html" class="text-lg">Enviar</a></button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="grid gris-cols-4">
+            <hr class="hidden lg:block hr-green col-span-2 border-green-200 col-start-2 col-end-4 w-3/6  mt-10 mb-10">
+        </div>
+        <section class="bg-gradient-to-r grid grid-rows-7 from-green-100 to-green-300 mx-20 shadow-2xl rounded-full">
+            <div class="row-span-1 text-3xl text-gray-700 text-center pt-3">Completa tu ficha de salud</div>
+            <div class="row-span-6 grid grid-cols-3">
+                <div class="col-span-1 grid grid-rows-6 py-10 px-32">
+                    <div class="row-span-1 my-4">
+                        <label for="name" class="">Nombre</label>
+                        <input type="text" required="required" id="name" name="name" placeholder="Matias"
+                            class=" shadow-2xl rounded-xl px-2 py-1">
+                    </div>
+                    <div class="row-span-1 my-4">
+                        <label for="name" class="">Nombre</label>
+                        <input type="text" required="required" id="name" name="name" placeholder="Matias"
+                            class=" shadow-2xl rounded-xl px-2 py-1">
+                    </div>
+                    <div class="row-span-1 my-4">
+                        <label for="name" class="">Nombre</label>
+                        <input type="text" required="required" id="name" name="name" placeholder="Matias"
+                            class=" shadow-2xl rounded-xl px-2 py-1">
+                    </div>
+                    <div class="row-span-1 my-4">
+                        <label for="name" class="">Nombre</label>
+                        <input type="text" required="required" id="name" name="name" placeholder="Matias"
+                            class=" shadow-2xl rounded-xl px-2 py-1">
+                    </div>
+                    <div class="row-span-1 my-4">
+                        <label for="name" class="">Nombre</label>
+                        <input type="text" required="required" id="name" name="name" placeholder="Matias"
+                            class=" shadow-2xl rounded-xl px-2 py-1">
+                    </div>
+                </div>
+                <div class="col-span-1 grid grid-rows-6 py-10 px-24">
+                    <div class="row-span-1 my-4">
+                        <label for="name" class="">Nombre</label>
+                        <input type="text" required="required" id="name" name="name" placeholder="Matias"
+                            class=" shadow-2xl rounded-xl px-2 py-1">
+                    </div>
+                    <div class="row-span-1 my-4">
+                        <label for="name" class="">Nombre</label>
+                        <input type="text" required="required" id="name" name="name" placeholder="Matias"
+                            class=" shadow-2xl rounded-xl px-2 py-1">
+                    </div>
+                    <div class="row-span-1 my-4">
+                        <label for="name" class="">Nombre</label>
+                        <input type="text" required="required" id="name" name="name" placeholder="Matias"
+                            class=" shadow-2xl rounded-xl px-2 py-1">
+                    </div>
+                    <div class="row-span-1 my-4">
+                        <label for="name" class="">Nombre</label>
+                        <input type="text" required="required" id="name" name="name" placeholder="Matias"
+                            class=" shadow-2xl rounded-xl px-2 py-1">
+                    </div>
+                    <div class="row-span-1 my-4">
+                        <label for="name" class="">Nombre</label>
+                        <input type="text" required="required" id="name" name="name" placeholder="Matias"
+                            class=" shadow-2xl rounded-xl px-2 py-1">
+                    </div>
+                </div>
+                <div class="col-span-1 grid grid-rows-6 py-10 px-20">
+                    <div class="row-span-1 my-4">
+                        <label for="name" class="">Nombre</label>
+                        <input type="text" required="required" id="name" name="name" placeholder="Matias"
+                            class=" shadow-2xl rounded-xl px-2 py-1">
+                    </div>
+                    <div class="row-span-1 my-4">
+                        <label for="name" class="">Nombre</label>
+                        <input type="text" required="required" id="name" name="name" placeholder="Matias"
+                            class=" shadow-2xl rounded-xl px-2 py-1">
+                    </div>
+                    <div class="row-span-1 my-4">
+                        <label for="name" class="">Nombre</label>
+                        <input type="text" required="required" id="name" name="name" placeholder="Matias"
+                            class=" shadow-2xl rounded-xl px-2 py-1">
+                    </div>
+                    <div class="row-span-1 my-4">
+                        <label for="name" class="">Nombre</label>
+                        <input type="text" required="required" id="name" name="name" placeholder="Matias"
+                            class=" shadow-2xl rounded-xl px-2 py-1">
+                    </div>
+                    <div class="row-span-1 my-4">
+                        <label for="name" class="">Nombre</label>
+                        <input type="text" required="required" id="name" name="name" placeholder="Matias"
+                            class=" shadow-2xl rounded-xl px-2 py-1">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <div class="grid gris-cols-4">
+        <hr class="hidden lg:block hr-green col-span-2 border-pink-200 col-start-2 col-end-4 w-3/6  mt-10 mb-10">
+    </div>
+    <footer class="relative block bg-gradient-to-r from-pink-100  to-pink-300">
+        <div class="grid grid-cols-4 p-20">
+            <div class="col-span-1 col-start-1 col-end-1 bottom-0">
+                <div class="grid grid-rows-4">
+                    <div class="row-span-1"></div>
+                    <div class="row-span-2"><img src="../footer.png" alt="" class="h-48 w-48"></div>
+                    <div class="row-span-1"></div>
+                </div>
+            </div>
+            <div class="col-span-2 col-start-2 col-end-4 mx-40 bottom-0">
+                <div class="bg-gray-200 shadow-2xl p-5">
+                    <div class="pb-5">
+                        <h1 class="text-3xl">Contacto</h1>
+                    </div>
+                    <div class="py-5">
+                        <h1 class="text-lg"><u>Teléfono:</u> 2314625652</h1>
+                    </div>
+                    <div class="py-5">
+                        <h1 class="text-lg"><u>Mail:</u> clarabacas@gmail.com</h1>
+                    </div>
+                    <div class="py-5">
+                        <h1 class="text-lg"><u>Instagram:</u> @mcbyoga</h1>
+                    </div>
+                </div>
+                <div class="row-span-1"></div>
+            </div>
+            <div class="col-span-1 bottom-0">
+                <div class="row-span-4"><img src="../bambu.png" alt=""></div>
+            </div>
+        </div>
+    </footer>
+    <script src="../app.js"></script>
+</body>
+
+</html>
