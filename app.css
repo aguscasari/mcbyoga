@@ -1,0 +1,14 @@
+.fotoHeader {
+    background: linear-gradient(to top, rgba(255, 255, 255, 0) 20%, rgba(00, 00, 00, 0.7)), url(yoga3.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-bottom: 5px;
+}
+
+.fotoFormulario {
+    background-image: url(formulario.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 106%;
+}
