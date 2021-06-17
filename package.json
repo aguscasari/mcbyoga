@@ -1,0 +1,15 @@
+{
+  "name": "mcbyoga",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "tailwindcss": "^2.1.4"
+  }
+}
